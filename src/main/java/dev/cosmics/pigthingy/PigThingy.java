@@ -10,6 +10,7 @@ public final class PigThingy extends JavaPlugin {
         // Plugin startup logic
         getCommand("mobexplode").setExecutor(new MobCommand());
         Bukkit.getServer().getPluginManager().registerEvents(new MobEvents(), this);
+        System.out.println("PigThingy has been enabled!, made by super_cool_spy");
     }
 
     @Override
