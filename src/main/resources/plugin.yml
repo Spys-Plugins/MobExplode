@@ -4,3 +4,4 @@ main: dev.cosmics.pigthingy.PigThingy
 commands:
   mobexplode:
     description: Mob exploding gui
+    permission: mobexplode.use

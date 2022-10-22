@@ -6,7 +6,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDeathEvent;
 
 public class MobEvents implements Listener {
-    private static EntityType mob = EntityType.PIG;
+    private static EntityType mob = null;
     private static float explosionPower = 4f;
 
     @EventHandler
