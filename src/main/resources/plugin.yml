@@ -1,0 +1,6 @@
+name: PigThingy
+version: '${project.version}'
+main: dev.cosmics.pigthingy.PigThingy
+commands:
+  mobexplode:
+    description: Mob exploding gui
